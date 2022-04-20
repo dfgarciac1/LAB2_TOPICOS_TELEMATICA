@@ -1,4 +1,4 @@
-# Lab2-ST0263
+# Lab2-ST0263 👾👾👾
 
 <details>
   <summary>Table of Contents</summary>
@@ -14,13 +14,13 @@
   </ol>
 </details>
 
-## Project Objetive
+## Project Objetive 👌
 
 The objetive of this project is to explore docker and nginx to deploy an CMS in this case Wordpress and SSL Certificated provided by Let's Encript. 
 
 ## Setup
 
-### EC2
+### EC2 🎶
 
 For this project please install any virtual machine or instance on DigitalOcean Droplet, AWS EC2, Google Cloud Compute Engine, Ibm Cloud.
 
@@ -118,7 +118,7 @@ sudo nano /etc/nginx/nginx.conf
 ## Flow
 
 
-## Testing
+## Testing 🥤🥤👍
 
 visit the website https://cheems12.tk/ and check is your browser indicates that your connection is secure
 
