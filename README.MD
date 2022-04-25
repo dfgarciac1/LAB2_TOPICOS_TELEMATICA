@@ -89,24 +89,14 @@ The last command is fundamental to get the SSL certificate on your machine.
 
 When you install CERTBOT let's generate the cerfiticate but first you need to adquire a domain on this case we are going to use [Freenom](https://www.freenom.com/) 
 
-My domain is daves.tk so let's generate the certificate
-
 ```bash
 sudo certbot --nginx certonly -d cheems12.tk -d ww3.cheems12.tk
 ```
-Certbot will request you to add your personal email.
-
 when the certificate is done it will be saved on 
 
 ```bash
 /etc/letsencrypt/live/cheems12.tk/fullchain.pem
 /etc/letsencrypt/live/cheems12.tk/privkey.pem
-```
-
-To renew your cert run this command
-
-```bash
-sudo certbot renew --dry-run
 ```
 
 Finally run this command and edit Nginx conf file
